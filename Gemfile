@@ -30,7 +30,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'concurrent-ruby', '1.3.4'
 gem 'rexml'
 gem 'nokogiri', '~> 1.18'
-
+gem 'bigdecimal', '~> 3.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
