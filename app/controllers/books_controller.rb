@@ -20,7 +20,7 @@ class BooksController < ApplicationController
   end
 
   # POST /books or /books.json
-  # extra comment made
+  # extra comment made for testing
   def create
     @book = Book.new(book_params)
 
